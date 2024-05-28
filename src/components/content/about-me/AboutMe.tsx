@@ -1,4 +1,3 @@
-import FaMAF from "../education/FaMAF";
 
 const AboutMe = () => {
     return (
