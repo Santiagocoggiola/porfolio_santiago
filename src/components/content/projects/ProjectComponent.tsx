@@ -24,7 +24,9 @@ const ProjectComponent = ({project}: ProjectComponentProps) => {
                     </p>
                     <ProjectSkills technologies={project.technologies} />
                 </div>
-                <Separator />
+                <div className="block lg:hidden">
+                    <Separator />
+                </div>
             </div>
         </li>
     );
