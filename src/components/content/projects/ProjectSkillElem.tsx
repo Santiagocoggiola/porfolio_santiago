@@ -1,4 +1,5 @@
 import {ReactNode} from "react";
+import Separator from "../../Separator";
 
 interface ProjectSkillElemProps {
     technology: ReactNode;

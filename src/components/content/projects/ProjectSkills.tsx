@@ -8,7 +8,7 @@ interface ProjectSkillsProps {
 const ProjectSkills = ({technologies}: ProjectSkillsProps) => {
 
     return (
-        <ul className="flex flex-row justify-items-start font-bold gap-5">
+        <ul className="flex flex-col md:flex-row justify-items-start font-bold gap-5">
             {
                 technologies.map((technology) =>
                     <ProjectSkillElem technology={technology} />

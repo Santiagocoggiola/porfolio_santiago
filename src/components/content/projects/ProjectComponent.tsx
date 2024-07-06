@@ -1,6 +1,7 @@
 import ImageComponent from "../../../Image/ImageComponent";
 import {ProjectItem} from "../../../types";
 import ProjectSkills from "./ProjectSkills";
+import Separator from "../../Separator";
 
 interface ProjectComponentProps {
     project: ProjectItem;
@@ -23,6 +24,7 @@ const ProjectComponent = ({project}: ProjectComponentProps) => {
                     </p>
                     <ProjectSkills technologies={project.technologies} />
                 </div>
+                <Separator />
             </div>
         </li>
     );
