@@ -1,5 +1,6 @@
 import TimelineElement from "./TimelineElement";
 import React from "react";
+import {TimelineElems} from "../../../types";
 
 interface TimelineProps {
     timelineElems: TimelineElems[];

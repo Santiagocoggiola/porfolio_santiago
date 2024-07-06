@@ -1,3 +1,5 @@
+import {ReactNode} from "react";
+
 interface TimelineElems {
     title: string;
     description: string;
@@ -9,6 +11,6 @@ interface ProjectItem {
     title: string;
     url: string;
     description: string;
-    technologies: string[];
+    technologies: ReactNode[];
     image: string;
 }

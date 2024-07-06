@@ -1,14 +1,14 @@
 export const educations: TimelineElems[] = [
     {
-        title: 'Computer Science Analyst at FaMAF UNC',
-        description: 'Where I learned the basics of programming in C, agile methodologies, and how to work effectively in teams.',
+        title: 'Bachelor of Computer Science, FaMAF UNC',
+        description: 'Acquired a strong foundation in programming, particularly in C. Gained proficiency in agile methodologies and collaborative teamwork, preparing me for a dynamic tech industry.',
         from: '2020',
         to: '2024',
     },
     {
-        title: 'Technician in video game design at IES Siglo XXI',
-        description: 'I began studying programming with a focus on video games, where we primarily used C#.',
+        title: 'Technician in Video Game Design, IES Siglo XXI',
+        description: 'Specialized in video game development with an emphasis on C# programming. This course ignited my passion for programming and laid the groundwork for my software development skills.',
         from: '2015',
         to: '2017',
     }
-]
+];

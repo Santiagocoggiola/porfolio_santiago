@@ -1,6 +1,7 @@
 import AboutMe from "./about-me/AboutMe";
 import Education from "./education/Education";
 import Experience from "./experience/Experience";
+import Projects from "./projects/Projects";
 
 const Content = () => {
     return (
@@ -11,6 +12,7 @@ const Content = () => {
             <AboutMe />
             <Education />
             <Experience />
+            <Projects />
         </section>
     );
 }
