@@ -1,3 +1,5 @@
+import {TimelineElems} from "../types";
+
 export const experiences: TimelineElems[] = [
     {
         title: 'Fullstack Developer at Sumtech Labs',

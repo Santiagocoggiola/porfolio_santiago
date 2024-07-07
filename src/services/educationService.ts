@@ -1,3 +1,5 @@
+import {TimelineElems} from "../types";
+
 export const educations: TimelineElems[] = [
     {
         title: 'Bachelor of Computer Science, FaMAF UNC',
